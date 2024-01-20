@@ -11,8 +11,61 @@
 
 </head>
 <body>
-      <h1> Hello Best Team GoChella :p ! </h1>
-      
+    <header class="header">
+        <div class="bottom-bar">
+          <div class="bottom-bar__content">
+            <a href="./index.html" class="logo">
+              <img class="logo__img" src="./assets/logo.svg" alt="logo" />
+              <span class="logo__text"><span class="highlight">Go</span>Chella</span>
+            </a>
+  
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <button  class="btn login" id="login">Log in</button>
+                </li>
+                <li class="nav__item">
+                  <button  class="btn signup" id="signup">Sign up</button>
+                </li>
+              </ul>
+            </nav>
+  
+            <div class="hamburger">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="background">
+        <div class="main-bg">
+          <div class="main-content">
+              <p class="section-1">Pick up your</p>
+              <p class="section-2">wonderful plans</p>
+          </div>
+        </div>
+      </main>
+      <main class="content">
+        <div class="main-search">
+          <div class="left">
+            <div class="search-text">
+              <i class="bx bx-search" id="bx-search"></i>
+              <input type="text" name="search-section" id="search-input" placeholder="Find the event your intersted in">
+           
+            </div>
+          </div>
+          
+          <div class="right">
+           
+            <div class="search-location">
+            <i class='bx bx-map' id="bx-map"></i> 
+            <input type="text" name="search-section" id="search-map" placeholder="Jbal Jloud">
+            <button type="submit" class="btn search_btn">Search</button>
+            </div>
+        </div>
+        </div>
+      </main>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>
