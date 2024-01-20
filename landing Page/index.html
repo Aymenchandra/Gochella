@@ -1,71 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing Page</title>
-        <!-- CSS link     -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>landing Page</title>
+  <!-- CSS link     -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 
 </head>
+
 <body>
-    <header class="header">
-        <div class="bottom-bar">
-          <div class="bottom-bar__content">
-            <a href="./index.html" class="logo">
-              <img class="logo__img" src="./assets/logo.svg" alt="logo" />
-              <span class="logo__text"><span class="highlight">Go</span>Chella</span>
-            </a>
-  
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <button  class="btn login" id="login">Log in</button>
-                </li>
-                <li class="nav__item">
-                  <button  class="btn signup" id="signup">Sign up</button>
-                </li>
-              </ul>
-            </nav>
-  
-            <div class="hamburger">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+  <header class="header">
+    <div class="bottom-bar">
+      <div class="bottom-bar__content">
+        <a href="./index.html" class="logo">
+          <img class="logo__img" src="../landing Page/assets/images/logo.svg" alt="logo" />
+          <span class="logo__text"><span class="highlight">Go</span>Chella</span>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <button class="btn login" id="login">Log in</button>
+            </li>
+            <li class="nav__item">
+              <button class="btn signup" id="signup">Sign up</button>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="background">
+    <div class="main-bg">
+      <div class="main-content">
+        <p class="section-1">Pick up your</p>
+        <p class="section-2">wonderful plans</p>
+      </div>
+    </div>
+  </main>
+  <main class="content">
+    <div class="main-search">
+      <div class="left">
+        <div class="search-text">
+          <i class="bx bx-search" id="bx-search"></i>
+          <input type="text" name="search-section" id="search-input" placeholder="Find the event your intersted in">
+
+        </div>
+      </div>
+
+      <div class="right">
+
+        <div class="search-location">
+          <i class='bx bx-map' id="bx-map"></i>
+          <input type="text" name="search-section" id="search-map" placeholder="Jbal Jloud">
+          <button type="submit" class="btn search_btn">Search</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Events Section -->
+  <section class="events">
+    <div class="container">
+      <div class="header-title flex-justify-content">
+        <h2>New events in <span class="primary">jbal jloud</span> </h2>
+        <input class="button btn-primary" type="button" value="View more">
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 7.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Urban Marathon</h4>
+              <p class="pricing">From $5</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Monday, June 06 | 06:00 AM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
             </div>
           </div>
         </div>
-      </header>
-      <main class="background">
-        <div class="main-bg">
-          <div class="main-content">
-              <p class="section-1">Pick up your</p>
-              <p class="section-2">wonderful plans</p>
-          </div>
-        </div>
-      </main>
-      <main class="content">
-        <div class="main-search">
-          <div class="left">
-            <div class="search-text">
-              <i class="bx bx-search" id="bx-search"></i>
-              <input type="text" name="search-section" id="search-input" placeholder="Find the event your intersted in">
-           
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 8.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Melody Mania</h4>
+              <p class="pricing free-price">Free Ticket</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Wednesday, June 24 | 07:00 PM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
             </div>
           </div>
-          
-          <div class="right">
-           
-            <div class="search-location">
-            <i class='bx bx-map' id="bx-map"></i> 
-            <input type="text" name="search-section" id="search-map" placeholder="Jbal Jloud">
-            <button type="submit" class="btn search_btn">Search</button>
+        </div>
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 9.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">"Rockin' the Stage</h4>
+              <p class="pricing">From $50.00</p>
             </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Monday, March 14 | 04:00 PM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
+            </div>
+          </div>
         </div>
+      </div>
+  </section>
+  <!-- End:Events Section -->
+
+  <!-- Categories Section -->
+  <section class="events">
+    <div class="container">
+      <div class="header-title">
+        <h2>Explore by <span class="primary">categories</span></h2>
+      </div>
+      <div class="logo-slider">
+        <div class="logos-slide">
+          <img src="../landing Page/assets/images/music.png">
+          <img src="../landing Page/assets/images/sport.png">
+          <img src="../landing Page/assets/images/exbition.png">
+          <img src="../landing Page/assets/images/business.png">
+          <img src="../landing Page/assets/images/photography.png">
         </div>
-      </main>
+      </div>
+    </div>
+  </section>
+
+  <!-- End:Categories Section -->
+  <!-- Upcoming Section -->
+  <section class="upcoming">
+    <div class="container">
+      <div class="header-title flex-justify-content">
+        <h2>Upcoming <span class="primary">this week</span> </h2>
+        <input class="button btn-primary" type="button" value="View more">
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 3.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Musical Fusion Festival</h4>
+              <p class="pricing">From $100</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Monday, June 06 | 06:00 AM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>New York, NY</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 4.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Creating a Thriving Business in the United States</h4>
+              <p class="pricing">From $50</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Tuesday, June 7 | 06:00 AM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Atlanta</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End:Upcoming Section -->
+  <!-- More events Section -->
+  <section class="events">
+    <div class="container">
+      <div class="header-title flex-justify-content">
+        <h2>More events</h2>
+        <input class="button btn-primary" type="button" value="View more">
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 12.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Marathon</h4>
+              <p class="pricing">From $10</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Monday, June 06 | 06:00 AM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 11.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Rock Festival</h4>
+              <p class="pricing">From $100</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Monday, March 14 | 04:00 PM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="../landing Page/assets/images/Image 8.png" alt="Card Image">
+          <div class="card-content">
+            <div class="card-title flex-justify-content">
+              <h4 class="text">Melody Mania</h4>
+              <p class="pricing free-price">Free Ticket</p>
+            </div>
+            <div class="calendar center-flex">
+              <img src="../landing Page/assets/images/Calendar 4.svg" alt="calendar" />
+              <span>Wednesday, June 24 | 07:00 PM</span>
+            </div>
+            <div class="position center-flex">
+              <img src="../landing Page/assets/images/Pin 3 5.svg" alt="pin" />
+              <span>Jbal Jloud, TN</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End: More events Section -->
+
 </body>
 <script src="./assets/js/script.js"></script>
+
 </html>
