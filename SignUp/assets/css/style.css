@@ -248,11 +248,16 @@ body {
 }
 
 .stepper-vertical li .step-content {
-    display: block;
+    /* display: block;
     margin-top: 0;
     margin-left: 50px;
     padding: 0px;
-    box-sizing: inherit;
+    box-sizing: inherit; */
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    box-sizing:inherit;
+    justify-content: center;
 }
 
 /*Stepper End*/
@@ -260,8 +265,7 @@ body {
 /*card */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    /* max-width: 580px; */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
    column-gap: 20px;
   }
   
@@ -284,7 +288,10 @@ body {
   
   .card-content {
     padding: 20px;
-
+    max-width:580px;
+    /* display: flex;
+    flex-wrap: wrap;
+    max-width:580px; */
   }
   
   .card .text {
@@ -313,3 +320,12 @@ body {
     width:100%;
   }
   
+  /*Media Query*/ 
+  /* @media (max-width: 787px) {
+    
+    .card-content {
+      display: flex;
+      flex-wrap: wrap;
+      max-width:580px;
+    }
+  } */
